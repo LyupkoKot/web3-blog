@@ -15,7 +15,7 @@ export default function Home(props) {
 
   const router = useRouter();
   async function navigate() {
-    router.push("/creat-post");
+    router.push("/create-post");
   }
 
   return (
